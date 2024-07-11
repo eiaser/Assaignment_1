@@ -49,6 +49,7 @@ h1, p, button{
     margin-top: 20px;
     
 }
+
 .why_web_development_content>h1{
     text-align: center;
 }
@@ -56,6 +57,35 @@ h1, p, button{
 .why_web_development_content>p{
     text-align: center;
 }
-.web_development_card{
+.web_development_card_1{
     margin-top: 20px;
+}
+
+.web_development_card_1 h1{
+    margin-top: 20px;
+}
+.web_development_card_1 p{
+    margin-top: 20px;
+}
+.web_development_card_1 button,.web_development_card_2 button,.web_development_card_3 button{
+    margin-top: 20px;
+    padding: 10px;
+}
+.web_development_card_1 img{
+    float: right;
+}
+
+
+.web_development_card_2{
+    margin-top: 200px;
+}
+.web_development_card_2 img{
+    float: left;
+}
+
+.web_development_card_3{
+    margin-top: 200px;
+}
+.web_development_card_3 img{
+    float: right;
 }
