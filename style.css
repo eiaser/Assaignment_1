@@ -1,0 +1,61 @@
+/*Fonts style*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*Hero Section*/
+h1, p, button{
+    font-family: "Azeret Mono", monospace;
+}
+
+.hero_section {
+    background-image: url(images/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_section_content{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.hero_section_content h1 {
+    margin-bottom: 10px;
+}
+
+.hero_section_content p {
+    margin-bottom: 10px;
+}
+
+.hero_section_content button{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px black;
+}
+
+/*Why Web development*/
+.why_web_development{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.why_web_development_content>h1{
+    text-align: center;
+}
+
+.why_web_development_content>p{
+    text-align: center;
+}
+.web_development_card{
+    margin-top: 20px;
+}
